@@ -4,7 +4,9 @@
 [Paper link]()
 
 ## Data
-ABC
+The file `dataset_labels.csv` contains all posts used in the annotation task. Each row includes a post (represented by its shortcode) and each column is the label given by the corresponding annotator. See Section 3.4 of the paper to understand what each subgroup represents. You can access the posts on Instagram through `instagram.com/p/{shortcode}`.
+
+The file `prompt.txt` contains the final version of the ChatGPT prompt used to generate the explanations used to augment the annotation task.
 
 ## Citation
 ```
